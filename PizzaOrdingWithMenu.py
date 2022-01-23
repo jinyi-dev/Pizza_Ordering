@@ -48,7 +48,7 @@ def calc_price():
            
 def print_cart():
     toppings_one_pizza = []
-    size_selected.append(name_size[size]) # make a size list
+    size_selected.append(name_size[size]) # make a size list to use
     
     for i in toppings_selected:
         toppings_one_pizza.append(toppings_options[i])
